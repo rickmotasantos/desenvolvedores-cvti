@@ -1,0 +1,46 @@
+@media (max-width:1220px){
+    .cabecalho .topo {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topo .titulo h1 {
+        text-align: center;
+    }
+
+    .topo .titulo img {
+       display: none;
+    }
+
+    .topo .circulo-arrow {
+        margin-bottom: 50px;
+    }
+
+    .texto-sobre-devs {
+        align-items: center;
+    }
+
+    .texto-sobre-devs p{
+        text-align: center;
+    }
+
+    .texto-sobre-devs img {
+        display: none;
+    }
+}
+
+@media (max-width:690px){
+
+    .conteudo-meio {
+        margin: 0;
+    }
+
+    .topo .titulo h1 {
+        font-size: 30px;
+    }
+
+    .texto-sobre-devs p {
+        font-size: 20px;
+    }
+}
